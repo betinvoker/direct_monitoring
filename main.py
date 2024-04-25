@@ -1,4 +1,5 @@
 import time
+import os
 from datetime import datetime
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
@@ -19,9 +20,13 @@ def click_button():
     observer = Observer()
 
     if checkActive == False:
+        if path.get() == "" or path.get() == "./":
+            path.set("./test")
+            os.mkdir("./test")
+        
         btn["text"] = f"Остановка мониторинга" # изменяем текст на кнопке
         text.insert("1.0", datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " Запуск мониторинга дирректории:" + path.get() + "\n")
-        
+
         observer.start()
         observer.schedule(handler, path=path.get(), recursive=True)
 
