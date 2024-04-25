@@ -15,6 +15,9 @@ def finish():
 def click_button():
     global checkActive
 
+    handler = MyHandler()
+    observer = Observer()
+
     if checkActive == False:
         btn["text"] = f"Остановка мониторинга" # изменяем текст на кнопке
         text.insert("1.0", datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " Запуск мониторинга дирректории:" + path.get() + "\n")
@@ -61,9 +64,6 @@ class MyHandler(FileSystemEventHandler):
 
         with open("monitoring.txt", "a") as file:
             print(datetime.now().strftime("%Y-%m-%d %H:%M:%S") + f" Изменено название файла [{event.src_path.split('\\')[-1]}] по пути [{event.src_path}]", file=file)
-
-handler = MyHandler()
-observer = Observer()
 
 root = Tk() # создаем корневой объект - окно
 root.title("Мониторинг обращений к файловой системе") # заголовок окна

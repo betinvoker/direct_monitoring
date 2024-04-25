@@ -30,3 +30,23 @@
 2024-04-19 00:14:52 Удален файл [Лист Microsoft Excel (3).xlsx] по пути [C:\Users\betin\Downloads\test\Лист Microsoft Excel (3).xlsx]
 2024-04-19 00:14:52 Удален файл [Лист Microsoft Excel.xlsx] по пути [C:\Users\betin\Downloads\test\Лист Microsoft Excel.xlsx]
 2024-04-19 00:14:52 Удален файл [123.xlsx] по пути [C:\Users\betin\Downloads\test\123.xlsx]
+2024-04-25 22:18:22 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
+2024-04-25 22:18:30 Создан файл [Текстовый документ.txt] по пути [C:\Users\betin\Downloads\test\Текстовый документ.txt]
+2024-04-25 22:18:34 Изменено название файла [Текстовый документ.txt] по пути [C:\Users\betin\Downloads\test\Текстовый документ.txt]
+2024-04-25 22:18:39 Удален файл [fdfd.txt] по пути [C:\Users\betin\Downloads\test\fdfd.txt]
+2024-04-25 22:18:42 Остановка мониторинга дирректории:C:\Users\betin\Downloads\test
+2024-04-25 22:24:18 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
+2024-04-25 22:24:28 Создан файл [Текстовый документ.txt] по пути [C:\Users\betin\Downloads\test\Текстовый документ.txt]
+2024-04-25 22:24:31 Остановка мониторинга дирректории:C:\Users\betin\Downloads\test
+2024-04-25 22:26:00 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
+2024-04-25 22:32:35 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
+2024-04-25 22:32:57 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
+2024-04-25 22:33:28 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
+2024-04-25 22:33:29 Остановка мониторинга дирректории:C:\Users\betin\Downloads\test
+2024-04-25 22:33:32 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
+2024-04-25 22:33:37 Создан файл [Текстовый документ.txt] по пути [C:\Users\betin\Downloads\test\Текстовый документ.txt]
+2024-04-25 22:33:44 Изменено название файла [Текстовый документ.txt] по пути [C:\Users\betin\Downloads\test\Текстовый документ.txt]
+2024-04-25 22:33:44 Изменено название файла [Текстовый документ.txt] по пути [C:\Users\betin\Downloads\test\Текстовый документ.txt]
+2024-04-25 23:38:47 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
+2024-04-25 23:38:53 Удален файл [121.txt] по пути [C:\Users\betin\Downloads\test\121.txt]
+2024-04-25 23:38:56 Остановка мониторинга дирректории:C:\Users\betin\Downloads\test
