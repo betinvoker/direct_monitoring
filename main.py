@@ -9,42 +9,6 @@ from tkinter.scrolledtext import ScrolledText
 
 checkActive = False
 
-def finish():
-    root.destroy()  # ручное закрытие окна и всего приложения
-    print("Файл мониторинга изменен\nЗакрытие приложения")
-
-def click_button():
-    global checkActive
-
-    handler = MyHandler()
-    observer = Observer()
-
-    if checkActive == False:
-        if path.get() == "" or path.get() == "./":
-            path.set("./test")
-            os.mkdir("./test")
-        
-        btn["text"] = f"Остановка мониторинга" # изменяем текст на кнопке
-        text.insert("1.0", datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " Запуск мониторинга дирректории:" + path.get() + "\n")
-
-        observer.start()
-        observer.schedule(handler, path=path.get(), recursive=True)
-
-        with open("monitoring.txt", "a") as file:
-            print(datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " Запуск мониторинга дирректории:" + path.get(), file=file)
-        
-        checkActive = True
-    else:
-        btn["text"] = f"Запуск мониторинга"
-        text.insert("1.0", datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " Остановка мониторинга дирректории:" + path.get() + "\n")
-
-        observer.stop()
-
-        with open("monitoring.txt", "a") as file:
-            print(datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " Остановка мониторинга дирректории:" + path.get(), file=file)
-
-        checkActive = False
-
 class MyHandler(FileSystemEventHandler):
     def on_modified(self, event):
         text.insert("1.0", datetime.now().strftime("%Y-%m-%d %H:%M:%S") + f" В файл [{event.src_path.split('\\')[-1]}] внесли изменения по пути [{event.src_path}]\n", "blue")
@@ -69,6 +33,54 @@ class MyHandler(FileSystemEventHandler):
 
         with open("monitoring.txt", "a") as file:
             print(datetime.now().strftime("%Y-%m-%d %H:%M:%S") + f" Изменено название файла [{event.src_path.split('\\')[-1]}] по пути [{event.src_path}]", file=file)
+
+handler = MyHandler()
+
+def finish():
+    root.destroy()  # ручное закрытие окна и всего приложения
+    print("Файл мониторинга изменен\nЗакрытие приложения")
+
+def click_button():
+    global checkActive
+    observer = Observer()
+
+    arr_path_default = ["", ".", "./", ".\\"]
+
+    if checkActive == False:
+        for path_default in arr_path_default: 
+            if path_default == path.get():
+                try:
+                    os.mkdir("./test")
+                except:
+                    text.insert("1.0", datetime.now().strftime("%Y-%m-%d %H:%M:%S") + f" Нельзя включить мониторинг в корневом каталоге!\n", "red")
+                    
+                    with open("monitoring.txt", "a") as file:
+                        print(datetime.now().strftime("%Y-%m-%d %H:%M:%S") + f" Нельзя включить мониторинг в корневом каталоге: [{path.get()}]", file=file)
+                    
+                    path.set("./test")
+        
+        btn["text"] = f"Остановка мониторинга" # изменяем текст на кнопке
+        text.insert("1.0", datetime.now().strftime("%Y-%m-%d %H:%M:%S") + f" Запуск мониторинга дирректории: [{path.get()}]\n")
+        
+        
+        observer.start()
+        observer.schedule(handler, path=path.get(), recursive=True)
+
+        with open("monitoring.txt", "a") as file:
+            print(datetime.now().strftime("%Y-%m-%d %H:%M:%S") + f" Запуск мониторинга дирректории: [{path.get()}]", file=file)
+        
+        checkActive = True
+    else:
+        btn["text"] = f"Запуск мониторинга"
+        text.insert("1.0", datetime.now().strftime("%Y-%m-%d %H:%M:%S") + f" Остановка мониторинга дирректории: [{path.get()}]\n")
+
+        observer.stop()
+        #observer.join()
+
+        with open("monitoring.txt", "a") as file:
+            print(datetime.now().strftime("%Y-%m-%d %H:%M:%S") + f" Остановка мониторинга дирректории: [{path.get()}]", file=file)
+
+        checkActive = False
 
 root = Tk() # создаем корневой объект - окно
 root.title("Мониторинг обращений к файловой системе") # заголовок окна

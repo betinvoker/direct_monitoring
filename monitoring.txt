@@ -1,56 +1,9 @@
-2024-04-19 00:11:47 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
-2024-04-19 00:11:52 Удален файл [Текстовый документ (2).txt] по пути [C:\Users\betin\Downloads\test\Текстовый документ (2).txt]
-2024-04-19 00:12:01 Изменено название файла [344.xlsx] по пути [C:\Users\betin\Downloads\test\344.xlsx]
-2024-04-19 00:12:07 Создан файл [Лист Microsoft Excel (3).xlsx] по пути [C:\Users\betin\Downloads\test\Лист Microsoft Excel (3).xlsx]
-2024-04-19 00:12:07 В файл [Лист Microsoft Excel (3).xlsx] внесли изменения по пути [C:\Users\betin\Downloads\test\Лист Microsoft Excel (3).xlsx]
-2024-04-19 00:12:07 В файл [Лист Microsoft Excel (3).xlsx] внесли изменения по пути [C:\Users\betin\Downloads\test\Лист Microsoft Excel (3).xlsx]
-2024-04-19 00:12:07 Создан файл [~ист Microsoft Excel (3).tmp] по пути [C:\Users\betin\Downloads\test\~ист Microsoft Excel (3).tmp]
-2024-04-19 00:12:07 В файл [~ист Microsoft Excel (3).tmp] внесли изменения по пути [C:\Users\betin\Downloads\test\~ист Microsoft Excel (3).tmp]
-2024-04-19 00:12:07 В файл [~ист Microsoft Excel (3).tmp] внесли изменения по пути [C:\Users\betin\Downloads\test\~ист Microsoft Excel (3).tmp]
-2024-04-19 00:12:07 Создан файл [Лист Microsoft Excel (3).xlsx~RF2e3f1099.TMP] по пути [C:\Users\betin\Downloads\test\Лист Microsoft Excel (3).xlsx~RF2e3f1099.TMP]
-2024-04-19 00:12:07 Удален файл [Лист Microsoft Excel (3).xlsx~RF2e3f1099.TMP] по пути [C:\Users\betin\Downloads\test\Лист Microsoft Excel (3).xlsx~RF2e3f1099.TMP]
-2024-04-19 00:12:07 Изменено название файла [Лист Microsoft Excel (3).xlsx] по пути [C:\Users\betin\Downloads\test\Лист Microsoft Excel (3).xlsx]
-2024-04-19 00:12:07 Изменено название файла [~ист Microsoft Excel (3).tmp] по пути [C:\Users\betin\Downloads\test\~ист Microsoft Excel (3).tmp]
-2024-04-19 00:12:07 В файл [Лист Microsoft Excel (3).xlsx] внесли изменения по пути [C:\Users\betin\Downloads\test\Лист Microsoft Excel (3).xlsx]
-2024-04-19 00:12:07 Удален файл [Лист Microsoft Excel (3).xlsx~RF2e3f1099.TMP] по пути [C:\Users\betin\Downloads\test\Лист Microsoft Excel (3).xlsx~RF2e3f1099.TMP]
-2024-04-19 00:12:49 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
-2024-04-19 00:12:54 Создан файл [Текстовый документ.txt] по пути [C:\Users\betin\Downloads\test\Текстовый документ.txt]
-2024-04-19 00:13:00 Удален файл [Лист Microsoft Excel (2).xlsx] по пути [C:\Users\betin\Downloads\test\Лист Microsoft Excel (2).xlsx]
-2024-04-19 00:13:07 Изменено название файла [Текстовый документ (4).txt] по пути [C:\Users\betin\Downloads\test\Текстовый документ (4).txt]
-2024-04-19 00:13:11 В файл [eee.txt] внесли изменения по пути [C:\Users\betin\Downloads\test\eee.txt]
-2024-04-19 00:14:11 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
-2024-04-19 00:14:14 В файл [eee.txt] внесли изменения по пути [C:\Users\betin\Downloads\test\eee.txt]
-2024-04-19 00:14:22 Удален файл [eee.txt] по пути [C:\Users\betin\Downloads\test\eee.txt]
-2024-04-19 00:14:26 Изменено название файла [Текстовый документ (3).txt] по пути [C:\Users\betin\Downloads\test\Текстовый документ (3).txt]
-2024-04-19 00:14:26 В файл [fff.txt] внесли изменения по пути [C:\Users\betin\Downloads\test\fff.txt]
-2024-04-19 00:14:39 Удален файл [fff.txt] по пути [C:\Users\betin\Downloads\test\fff.txt]
-2024-04-19 00:14:46 Создан файл [Документ Microsoft Word.docx] по пути [C:\Users\betin\Downloads\test\Документ Microsoft Word.docx]
-2024-04-19 00:14:52 Удален файл [Документ Microsoft Word.docx] по пути [C:\Users\betin\Downloads\test\Документ Microsoft Word.docx]
-2024-04-19 00:14:52 Удален файл [Текстовый документ.txt] по пути [C:\Users\betin\Downloads\test\Текстовый документ.txt]
-2024-04-19 00:14:52 Удален файл [Лист Microsoft Excel (3).xlsx] по пути [C:\Users\betin\Downloads\test\Лист Microsoft Excel (3).xlsx]
-2024-04-19 00:14:52 Удален файл [Лист Microsoft Excel.xlsx] по пути [C:\Users\betin\Downloads\test\Лист Microsoft Excel.xlsx]
-2024-04-19 00:14:52 Удален файл [123.xlsx] по пути [C:\Users\betin\Downloads\test\123.xlsx]
-2024-04-25 22:18:22 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
-2024-04-25 22:18:30 Создан файл [Текстовый документ.txt] по пути [C:\Users\betin\Downloads\test\Текстовый документ.txt]
-2024-04-25 22:18:34 Изменено название файла [Текстовый документ.txt] по пути [C:\Users\betin\Downloads\test\Текстовый документ.txt]
-2024-04-25 22:18:39 Удален файл [fdfd.txt] по пути [C:\Users\betin\Downloads\test\fdfd.txt]
-2024-04-25 22:18:42 Остановка мониторинга дирректории:C:\Users\betin\Downloads\test
-2024-04-25 22:24:18 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
-2024-04-25 22:24:28 Создан файл [Текстовый документ.txt] по пути [C:\Users\betin\Downloads\test\Текстовый документ.txt]
-2024-04-25 22:24:31 Остановка мониторинга дирректории:C:\Users\betin\Downloads\test
-2024-04-25 22:26:00 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
-2024-04-25 22:32:35 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
-2024-04-25 22:32:57 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
-2024-04-25 22:33:28 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
-2024-04-25 22:33:29 Остановка мониторинга дирректории:C:\Users\betin\Downloads\test
-2024-04-25 22:33:32 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
-2024-04-25 22:33:37 Создан файл [Текстовый документ.txt] по пути [C:\Users\betin\Downloads\test\Текстовый документ.txt]
-2024-04-25 22:33:44 Изменено название файла [Текстовый документ.txt] по пути [C:\Users\betin\Downloads\test\Текстовый документ.txt]
-2024-04-25 22:33:44 Изменено название файла [Текстовый документ.txt] по пути [C:\Users\betin\Downloads\test\Текстовый документ.txt]
-2024-04-25 23:38:47 Запуск мониторинга дирректории:C:\Users\betin\Downloads\test
-2024-04-25 23:38:53 Удален файл [121.txt] по пути [C:\Users\betin\Downloads\test\121.txt]
-2024-04-25 23:38:56 Остановка мониторинга дирректории:C:\Users\betin\Downloads\test
-2024-04-26 00:09:28 Запуск мониторинга дирректории:./test
-2024-04-26 00:09:41 Создан файл [Текстовый документ.txt] по пути [./test\Текстовый документ.txt]
-2024-04-26 00:09:46 Удален файл [Текстовый документ.txt] по пути [./test\Текстовый документ.txt]
-2024-04-26 00:09:47 Остановка мониторинга дирректории:./test
+2024-04-26 23:55:26 Запуск мониторинга дирректории: [.\test]
+2024-04-26 23:55:35 Создан файл [Microsoft Publisher Document.pub] по пути [.\test\Microsoft Publisher Document.pub]
+2024-04-26 23:55:35 В файл [Microsoft Publisher Document.pub] внесли изменения по пути [.\test\Microsoft Publisher Document.pub]
+2024-04-26 23:55:35 В файл [Microsoft Publisher Document.pub] внесли изменения по пути [.\test\Microsoft Publisher Document.pub]
+2024-04-26 23:55:39 Удален файл [Microsoft Publisher Document.pub] по пути [.\test\Microsoft Publisher Document.pub]
+2024-04-26 23:55:45 Создан файл [Документ Microsoft Word.docx] по пути [.\test\Документ Microsoft Word.docx]
+2024-04-26 23:55:47 Изменено название файла [Документ Microsoft Word.docx] по пути [.\test\Документ Microsoft Word.docx]
+2024-04-26 23:55:50 Удален файл [fdfdfd.docx] по пути [.\test\fdfdfd.docx]
+2024-04-26 23:55:53 Остановка мониторинга дирректории: [.\test]
